@@ -16,10 +16,16 @@
 
 ## Part 6. 알고리즘의 복잡도 (Comlexity of Algorithms)
 - 복잡도(Complexity)
-  - 시간 복잡도(Time Complexity): 문제가 커짐에 따라 이 문제를 해결하는 데 소요되는 시간이 어떤 양상으로 증가하는가를 다룸
-  - 공간 복잡도(Space Complexity): 문제가 커짐에 따라 이 문제를 해결하는 데 소요되는 기억 공간 (메모리) 의 필요가 어떤 양상으로 증가하는가를 다룸
-- big-O notation: O(1) → O(logN) → O(N) → O(NlogN) → O(x^2) → O(x^3) → O(2^x) → O(N!)
-
+  - 시간 복잡도(Time Complexity): 문제의 크기와 이를 해결하는 데 걸리는 시간 사이의 관계
+    - 평균 시간 복잡도(Average Time Complexity): 임의의 입력 패턴을 가정했을 때 소요되는 시간의 평균
+    - 최악 시간 복잡도(Worst-case Time Complexity): 가장 긴 시간을 소요하게 만드는 입력에 따라 소요되는 시간
+  - 공간 복잡도(Space Complexity): 문제의 크기와 이를 해결하는 데 필요한 메모리 공간 사이의 관계
+- big-O notation: O(1) → O(logn) → O(N) → O(nlogn) → O(n^2) → O(n^3) → O(2^x) → O(n!)
+  - e.g., O(n): n개의 무작위로 나열된 수에서 최댓값을 찾기 위해 선형 탐색 알고리즘을 적용
+  - e.g., O(logn): n개의 크기 순으로 정렬된 수에서 특정 값을 찾기 위해 이진 탐색 알고리즘을 적용
+  - e.g., O(nlogn): 병합 정렬(merge sort)
+    - 정렬 문제에 대해 O(nlogn)보다 낮은 복잡도를 갖는 알고리즘은 존재할 수 없음이 증명되어 있음
+  - e.g., O(n^2): 삽입 정렬(insertion sort)
 
 ---
 ## private code
