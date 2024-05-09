@@ -14,6 +14,12 @@
 - 추가 다른 연산
   - 원소 탐색하기: .index()
 
+## Part 6. 알고리즘의 복잡도 (Comlexity of Algorithms)
+- 복잡도(Complexity)
+  - 시간 복잡도(Time Complexity): 문제가 커짐에 따라 이 문제를 해결하는 데 소요되는 시간이 어떤 양상으로 증가하는가를 다룸
+  - 공간 복잡도(Space Complexity): 문제가 커짐에 따라 이 문제를 해결하는 데 소요되는 기억 공간 (메모리) 의 필요가 어떤 양상으로 증가하는가를 다룸
+- big-O notation: O(1) → O(logN) → O(N) → O(NlogN) → O(x^2) → O(x^3) → O(2^x) → O(N!)
+
 
 ---
 ## private code
