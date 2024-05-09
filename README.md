@@ -1,4 +1,4 @@
-# Prepare_PCCP
+# Prepare for_PCCP
 
 ## Part 2. 문자열 (String)
 - .islower() & .isupper(): 대문자인지 모두 소문자인지 확인하여 boolean type으로 return
