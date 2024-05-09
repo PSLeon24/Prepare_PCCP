@@ -13,3 +13,9 @@
   - 원소 삭제하기: del ListName[index]
 - 추가 다른 연산
   - 원소 탐색하기: .index()
+
+
+---
+## private code
+- answer = my_string[:s] + overwrite_string + my_string[s + len(overwrite_string) :] # 슬라이싱 연산의 합
+- answer = list(map(int, str(n)[::-1])) # str형 뒤집어서 한번에 int형으로 변환
