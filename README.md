@@ -1,6 +1,9 @@
 # Prepare_PCCP
 
 ## Part 2. 문자열 (String)
+- .islower() & .isupper(): 대문자인지 모두 소문자인지 확인하여 boolean type으로 return
+- ord(): string to ascii
+- chr(): ascii to string
 
 ## Part 3. 선형 배열 (Linear Arrays)
 - 선형 배열: 데이터들이 선 (line) 처럼 일렬로 늘어선 형태 ~ Python에서는 List(주의, Linked List와는 구별해야 함)
